@@ -1,0 +1,24 @@
+body{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+fieldset{
+    width: 300px;
+    border-color: blue;
+    
+}
+legend{
+    color: red;
+    text-align: center;
+    
+    
+}
+label{
+    color: chocolate;
+}
+button{
+    background-color: green;
+    color: white;
+}
