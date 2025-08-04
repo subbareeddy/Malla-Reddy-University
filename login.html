@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+</head>
+<body>
+    <div style="text-align: center;"><br><br><br>
+    <fieldset>
+        <legend>Login Page</legend><br><br>
+        <label>UserName: </label>
+        <input type="text" id="name" placeholder="name"><br><br>
+         <label>Password: </label>
+        <input type="password" id="password" placeholder="password"><br><br>
+        <button onclick="login()">Login</button>
+        <button onclick="signUP()">SignUP</button>
+        <h1 id="res"></h1>
+        
+        </fieldset>
+    </div>
+        <script>
+            login=()=>{
+                let x=document.getElementById("name").value;
+                let y=document.getElementById("password").value;
+                if(x=="Subba" && y=="KSubba@123"){
+                    document.getElementById("res").innerHTML="Login Sucess";
+                    window.location.href="home.html";
+                }
+                else{
+                    document.getElementById("res").innerHTML="Login Failed";
+                }
+            }
+            signUP=()=>{
+                window.location.href="signup.html";
+            }
+        </script>
+    
+</body>
+</html>
