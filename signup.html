@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Document</title>
+</head>
+<body><br><br><br>
+    <center>
+    <fieldset>
+        <legend>SignUp Page</legend><br><br>
+        <label>UserName: </label>
+        <input type="text" id="u" placeholder="username"><br><br>
+        <label>Password: </label>
+        <input type="password" id="pass" placeholder="password"><br><br>
+        <label>Conform Password: </label>
+        <input type="password" id="pass1" placeholder="conform password"><br><br>
+        <label>Phone Number: </label>
+        <input type="number" id="num" placeholder="Number"><br><br>
+        <label>Email: </label>
+        <input type="email" id="email" placeholder="Email"><br><br>
+        <br>
+        <label>Gender: </label>
+        <input type="radio" id="G1"><b style="color: red;">Male</b>
+        <input type="radio" id="G2"><b style="color: red;">Female</b><br><br>
+        <button onclick="signUP()">SignUP</button>
+        <button onclick="login()">Login</button>
+        <h1 id="res"></h1>
+    </fieldset>
+    </center>
+    <script>
+        signUP=()=>{
+            let a=document.getElementById("u").value;
+            let b=document.getElementById("pass").value;
+            let c=document.getElementById("pass1").value;
+            let d=document.getElementById("num").value;
+            let e=document.getElementById("email").value;
+            let f=document.getElementById("G1").value;
+            let g=document.getElementById("G2").value;
+            document.getElementById("res").innerHTML="SignUp Sucess";
+        }
+        login=()=>{
+            window.location.href="login.html";
+        }
+    </script>
+</body>
+</html>
