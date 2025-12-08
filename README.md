@@ -19,7 +19,7 @@ In these we can build a one website MRU in these we can do more task one's see t
 
 ## Live Link
 
-mallareddy123.netlify.app
+https://mallareddy123.netlify.app/
 
 ## Run Locally
 
