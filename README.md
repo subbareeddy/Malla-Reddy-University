@@ -19,8 +19,7 @@ In these we can build a one website MRU in these we can do more task one's see t
 
 ## Live Link
 
-http://127.0.0.1:5500/welcom.html
-
+mallareddy123.netlify.app
 
 ## Run Locally
 
