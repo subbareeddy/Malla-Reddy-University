@@ -17,9 +17,6 @@ In these we can build a one website MRU in these we can do more task one's see t
 -   [Twitter](https://x.com/subbareddyk088)
 
 
-## Live Link
-
-https://mallareddy123.netlify.app/
 
 ## Run Locally
 
