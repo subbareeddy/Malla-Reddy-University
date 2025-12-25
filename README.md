@@ -16,6 +16,10 @@ In these we can build a one website MRU in these we can do more task one's see t
 -   [LinkedIn](https://www.linkedin.com/in/subbareddy-k-858468325/)
 -   [Twitter](https://x.com/subbareddyk088)
 
+## Live Link
+
+https://meek-kelpie-1e9e15.netlify.app/
+
 
 
 ## Run Locally
