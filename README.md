@@ -18,7 +18,7 @@ In these we can build a one website MRU in these we can do more task one's see t
 
 ## Live Link
 
-https://meek-kelpie-1e9e15.netlify.app/
+https://malla-reddy-university.netlify.app/
 
 
 
